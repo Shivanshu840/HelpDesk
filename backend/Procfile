@@ -1,0 +1,2 @@
+web: gunicorn helpdesk.wsgi --log-file -
+release: python manage.py migrate
